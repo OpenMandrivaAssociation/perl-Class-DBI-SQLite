@@ -12,6 +12,7 @@ Group:          Development/Perl
 Url:            http://search.cpan.org/dist/%{module}
 Source:         http://www.cpan.org/modules/by-module/Class/%{module}-%{version}.tar.gz
 BuildRequires:	perl(Class::DBI)
+BuildRequires:	perl(DBD::SQLite)
 BuildArch:      noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}
 
