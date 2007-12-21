@@ -15,6 +15,7 @@ BuildRequires:	perl(Class::DBI)
 BuildRequires:	perl(DBD::SQLite)
 BuildRequires:	perl(DBIx::ContextualFetch)
 BuildArch:      noarch
+BuildRoot:      %{_tmppath}/%{name}-%{version}
 
 %description
 Class::DBI::SQLite is an extension to Class::DBI for DBD::SQLite. It allows you to populate an auto-incremented row id after insert.
