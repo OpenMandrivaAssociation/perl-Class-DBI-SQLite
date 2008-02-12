@@ -18,7 +18,8 @@ BuildArch:      noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}
 
 %description
-Class::DBI::SQLite is an extension to Class::DBI for DBD::SQLite. It allows you to populate an auto-incremented row id after insert.
+Class::DBI::SQLite is an extension to Class::DBI for DBD::SQLite. It allows you
+to populate an auto-incremented row id after insert.
 
 %prep
 %setup -q -n %{module}-%{version} 
