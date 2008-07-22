@@ -1,7 +1,7 @@
 %define module  Class-DBI-SQLite
 %define name    perl-%{module}
 %define version 0.11
-%define release %mkrel 1
+%define release %mkrel 3
 
 Name:           %{name}
 Version:        %{version}
